@@ -1,5 +1,5 @@
 export const getMinSquaredNumber = (arr) => {
-  if (!Array.isArray(arr)) {
+  if (!Array.isArray(arr) || arr.length === 0) {
     return null;
   }
   const abs = arr.map((num) => Math.abs(num));
