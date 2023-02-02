@@ -21,6 +21,6 @@ it('should get 1', () => {
 });
 
 it('should get null', () => {
-  const result = calc('2 / 2');
-  expect(result).toEqual('1');
+  const result = calc(2);
+  expect(result).toEqual('null');
 });

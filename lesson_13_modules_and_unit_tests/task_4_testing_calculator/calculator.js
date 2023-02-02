@@ -23,4 +23,4 @@ export const calc = (expression) => {
 
   return `${expression} = ${result}`;
 };
-calc('2 + 2');
+calc('2 + 2'); //4
