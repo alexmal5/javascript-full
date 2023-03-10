@@ -27,7 +27,7 @@ const addClick = () => {
   spanElem.addEventListener('click', logGreenSpan);
 };
 
-addClick();
+// addClick();
 
 const clear = () => {
   const eventsListElem = document.querySelector('.events-list');
