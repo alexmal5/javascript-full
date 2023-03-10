@@ -34,6 +34,17 @@ const clear = () => {
   eventsListElem.innerHTML = '';
 };
 
+const addClick = () => {
+  divElem.addEventListener('click', logGreyDiv, true);
+  divElem.addEventListener('click', logGreenDiv);
+
+  pElem.addEventListener('click', logGreyP, true);
+  pElem.addEventListener('click', logGreenP);
+
+  spanElem.addEventListener('click', logGreySpan, true);
+  spanElem.addEventListener('click', logGreenSpan);
+};
+
 const buttonClear = document.querySelector('.clear-btn');
 buttonClear.addEventListener('click', clear);
 
